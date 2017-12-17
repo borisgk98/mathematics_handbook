@@ -1,0 +1,40 @@
+QFSFileEngine::open: No file name specified
+QFSFileEngine::open: No file name specified
+inotify_add_watch("/home/boris/tex/mathematics handbook/mh/discrete_mathematics.tex") failed: "No such file or directory"
+"/home/boris/tex/mathematics handbook/mathematics handbook.tex" 30
+inotify_add_watch("/home/boris/tex/mathematics handbook/mh/discrete_mathematics/boolean_functions.tex") failed: "No such file or directory"
+"/home/boris/tex/mathematics handbook/mh/discrete_mathematics.tex" 1
+QMutex: destroying locked mutex
+QFSFileEngine::open: No file name specified
+inotify_add_watch("/home/D/doc's/tex/mathematics handbook/mh/set_theory.tex") failed: "No such file or directory"
+"/home/D/doc's/tex/mathematics handbook/mathematics handbook.tex" 32
+inotify_add_watch("/home/D/doc's/tex/mathematics handbook/mh/combinatorics.tex") failed: "No such file or directory"
+"/home/D/doc's/tex/mathematics handbook/mathematics handbook.tex" 34
+inotify_add_watch("/home/D/doc's/tex/mathematics handbook/mh/introduction.tex") failed: "No such file or directory"
+"/home/D/doc's/tex/mathematics handbook/mathematics handbook.tex" 24
+Gtk-Message: GtkDialog mapped without a transient parent. This is discouraged.
+В текущем сеансе браузера создано новое окно.
+Gtk-Message: GtkDialog mapped without a transient parent. This is discouraged.
+QMutex: destroying locked mutex
+/home/D/doc's/tex/mathematics handbook/mh/set_theory.tex modified.
+/home/D/doc's/tex/mathematics handbook/mh/set_theory.tex modified.
+/home/D/doc's/tex/mathematics handbook/mh/set_theory.tex modified.
+/home/D/doc's/tex/mathematics handbook/mh/set_theory.tex modified.
+/home/D/doc's/tex/mathematics handbook/mh/set_theory.tex modified.
+/home/D/doc's/tex/mathematics handbook/mh/set_theory.tex modified.
+/home/D/doc's/tex/mathematics handbook/mh/set_theory.tex modified.
+/home/D/doc's/tex/mathematics handbook/mh/set_theory.tex modified.
+/home/D/doc's/tex/mathematics handbook/mh/set_theory.tex modified.
+/home/D/doc's/tex/mathematics handbook/mh/set_theory.tex modified.
+/home/D/doc's/tex/mathematics handbook/mh/set_theory.tex modified.
+/home/D/doc's/tex/mathematics handbook/mh/introduction.tex modified.
+/home/D/doc's/tex/mathematics handbook/mh/introduction.tex modified.
+/home/D/doc's/tex/mathematics handbook/mh/introduction.tex modified.
+/home/D/doc's/tex/mathematics handbook/mh/introduction.tex modified.
+/home/D/doc's/tex/mathematics handbook/mh/introduction.tex modified.
+/home/D/doc's/tex/mathematics handbook/mh/introduction.tex modified.
+/home/D/doc's/tex/mathematics handbook/mh/set_theory.tex modified.
+/home/D/doc's/tex/mathematics handbook/mh/set_theory.tex modified.
+QMutex: destroying locked mutex
+
+(texstudio:1074): GVFS-RemoteVolumeMonitor-WARNING **: Owner of volume monitor org.gtk.vfs.UDisks2VolumeMonitor disconnected from the bus; removing drives/volumes/mounts

@@ -1,0 +1,30 @@
+\part{Теория множеств}             
+\chapter{Основные понятия}
+\section{Определение}
+\textbf{Множество} - ключевое понятие теории множест. Оно аксиоматично, то есть неопределяемо. Обозначаются множества обычно заглавными буквами латинского алфивита.\\
+ $\in$ - символ принадлежности множеству.\\
+\textbf{Пустое множество} — множество, не содержащее ни одного элемента.\\
+\textbf{Универсальное множество (универсум)} — множество, содержащее все мыслимые объекты. В связи с парадоксом Рассела данное понятие трактуется в настоящее время как «множество, включающее все множества, участвующие в рассматриваемой задаче».
+\section{Аксиоматика}
+
+\section{Операции на множествами}
+\begin{itemize}
+	\item Объеденение $A \cup B = C \quad \Leftrightarrow \quad \forall c \in C : c \in A \text{ или } c \in B$
+	\item Пересечение $A \cap B = C \quad \Leftrightarrow \quad \forall c \in C : c \in A \text{ и } c \in B$
+	\item Разница $A \backslash B = C \quad \Leftrightarrow \quad \forall c \in C : c \in A \text{ и } c \notin B$
+	\item Симметрическая разница $A \vartriangle B = C \quad \Leftrightarrow \quad \forall c \in C : c \in A \cup \text{ и } c \notin A \cap B $
+	\item Дополнение к множеству $A$ (в универсальном множестве  $M$) $\overline{A} \quad \Leftrightarrow \quad \forall x \in \overline{A}, x \in M : x \notin A$
+\end{itemize}
+
+          
+\chapter{Функции над множествами}
+\section{Определение}
+\textbf{Функцией $\mathbf{f : A \rightarrow B}$} называется правило, ставящие в соответсвие каждому элементу множества $A$ единственный элемент множества $B$ ($f(a) \in B$, $a \in A$).\\
+Множество $A$ - \textbf{область определения $f$}.\\
+Множество $B$ - \textbf{область заначения $f$}.\\
+\section{Биекции, Иньекции, Сюрьекции}
+\begin{itemize}
+	\item $f : A \rightarrow B$ называют \textbf{иньективной}, если $\forall x, y \in A : x \neq y \Rightarrow f(x) \neq f(y)$
+	\item $f : A \rightarrow B$ называют \textbf{сюрьективной}, если $\forall b \in B \exists a \in A : f(a) = b$
+	\item $f : A \rightarrow B$ называют \textbf{биньюктивной}, если она является и иньективной и сюрьективной одновременно. 
+\end{itemize}

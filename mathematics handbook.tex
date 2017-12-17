@@ -1,0 +1,39 @@
+\documentclass[a4paper,12pt]{report}
+\usepackage[utf8]{inputenc}
+\usepackage[russian]{babel}
+\usepackage{graphicx}
+
+\usepackage{amsmath} %для работы больших скобок в формулах и др. фич
+\usepackage{amsfonts}
+\usepackage{amssymb}
+
+\usepackage{tikz} %для графиков ф-ий
+\usepackage{pgfplots}
+
+\begin{document}
+
+\author{Борис Кожуховский}
+\title{Справочник по математике}
+\date{2017}
+
+\maketitle
+\tableofcontents
+
+%inlude - ставит на новую страницу
+%input - просто продолжает (как будто вставляет текст из одного файла в другой)
+%нельзя делать несколько вложенностей include, а input можно
+\include{./mh/introduction}
+
+\include{./mh/algebra}
+
+\include{./mh/math_analysis}
+
+\include{./mh/geometric}
+
+\include{./mh/discrete_mathematics}
+
+\include{./mh/set_theory}
+
+\include{./mh/combinatorics}
+
+\end{document}\right) 
