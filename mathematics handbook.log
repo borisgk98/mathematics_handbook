@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/W32TeX) (preloaded format=pdflatex 2017.11.19)  23 DEC 2017 16:57
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/W32TeX) (preloaded format=pdflatex 2017.11.19)  24 DEC 2017 02:00
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1246,28 +1246,31 @@ LaTeX Font Info:    Try loading font information for T2A+cmr on input line 20.
 File: t2acmr.fd 2001/08/11 v1.0a Computer Modern Cyrillic font definitions
 )
 (./mh/introduction.aux) (./mh/algebra.aux) (./mh/math_analysis.aux)
-(./mh/geometric.aux) (./mh/discrete_mathematics.aux) (./mh/set_theory.aux)
-(./mh/combinatorics.aux))
+(./mh/geometric.aux) (./mh/discrete_mathematics.aux
+
+LaTeX Warning: Label `pgraph' multiply defined.
+
+) (./mh/set_theory.aux) (./mh/combinatorics.aux))
 \openout1 = `"mathematics handbook.aux"'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for T2A/cmr/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for T2A/cmr/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
 
 (g:/texlive/2017/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -1338,10 +1341,10 @@ ABD: EveryShipout initializing macros
 Package pgfplots Warning: running in backwards compatibility mode (unsuitable t
 ick labels; missing features). Consider writing \pgfplotsset{compat=1.15} into 
 your preamble.
- on input line 23.
+ on input line 24.
 
 \AtBeginShipoutBox=\box41
-Package hyperref Info: Link coloring OFF on input line 23.
+Package hyperref Info: Link coloring OFF on input line 24.
 (g:/texlive/2017/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 
@@ -1350,32 +1353,32 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count166
 )
-LaTeX Info: Redefining \ref on input line 23.
-LaTeX Info: Redefining \pageref on input line 23.
-LaTeX Info: Redefining \nameref on input line 23.
+LaTeX Info: Redefining \ref on input line 24.
+LaTeX Info: Redefining \pageref on input line 24.
+LaTeX Info: Redefining \nameref on input line 24.
 
 (./mathematics handbook.out) (./mathematics handbook.out)
 \@outlinefile=\write4
 \openout4 = `"mathematics handbook.out"'.
 
-LaTeX Font Info:    Try loading font information for U+msa on input line 30.
+LaTeX Font Info:    Try loading font information for U+msa on input line 31.
 
 (g:/texlive/2017/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 30.
+LaTeX Font Info:    Try loading font information for U+msb on input line 31.
 
 (g:/texlive/2017/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 30.
+(babel)             in language  on input line 31.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 30.
+(babel)             in language  on input line 31.
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 30.
+(babel)             in language  on input line 31.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 30.
+(babel)             in language  on input line 31.
  [1
 
 {g:/texlive/2017/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] (./mathematics 
@@ -1392,7 +1395,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.35 ...cyrsftsn }\IeC {\cyrya }}{19}{section.6.3}
+l.35 ...rf }\IeC {\cyrery }}{19}{subsection.6.2.1}
                                                    [1
 
 ])
@@ -1400,13 +1403,13 @@ l.35 ...cyrsftsn }\IeC {\cyrya }}{19}{section.6.3}
 \openout5 = `"mathematics handbook.toc"'.
 
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 35.
+(babel)             in language  on input line 36.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 35.
+(babel)             in language  on input line 36.
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 35.
+(babel)             in language  on input line 36.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 35.
+(babel)             in language  on input line 36.
  [2]
 \openout2 = `./mh/introduction.aux'.
 
@@ -1435,13 +1438,13 @@ Package babel Info: Redefining russian shorthand "~
 
 ])
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 35.
+(babel)             in language  on input line 36.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 35.
+(babel)             in language  on input line 36.
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 35.
+(babel)             in language  on input line 36.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 35.
+(babel)             in language  on input line 36.
  [4
 
 ]
@@ -1481,7 +1484,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 3--4
 
  []
 
-<./mh/algebra/rational_expressions/Pascal_triangle.png, id=287, 1284.8pt x 927.
+<./mh/algebra/rational_expressions/Pascal_triangle.png, id=273, 1284.8pt x 927.
 465pt>
 File: ./mh/algebra/rational_expressions/Pascal_triangle.png Graphic file (type 
 png)
@@ -1497,13 +1500,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 7--8
 
 )))
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 37.
+(babel)             in language  on input line 38.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 37.
+(babel)             in language  on input line 38.
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 37.
+(babel)             in language  on input line 38.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 37.
+(babel)             in language  on input line 38.
  [6
 
  <./mh/algebra/rational_expressions/Pascal_triangle.png>]
@@ -1702,22 +1705,22 @@ Package babel Info: Redefining russian shorthand "~
 (babel)             in language  on input line 1.
 ))))
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 39.
+(babel)             in language  on input line 40.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 39.
+(babel)             in language  on input line 40.
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 39.
+(babel)             in language  on input line 40.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 39.
+(babel)             in language  on input line 40.
  [12]
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 39.
+(babel)             in language  on input line 40.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 39.
+(babel)             in language  on input line 40.
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 39.
+(babel)             in language  on input line 40.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 39.
+(babel)             in language  on input line 40.
  [13]
 \openout2 = `./mh/geometric.aux'.
 
@@ -1826,13 +1829,13 @@ Package babel Info: Redefining russian shorthand "|
 Package babel Info: Redefining russian shorthand "~
 (babel)             in language  on input line 1.
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 36.
+(babel)             in language  on input line 35.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 36.
+(babel)             in language  on input line 35.
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 36.
+(babel)             in language  on input line 35.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 36.
+(babel)             in language  on input line 35.
  [17
 
 ])
@@ -1841,111 +1844,81 @@ Package babel Info: Redefining russian shorthand "|
 (babel)             in language  on input line 1.
 Package babel Info: Redefining russian shorthand "~
 (babel)             in language  on input line 1.
+
+(./mh/discrete_mathematics/graph/EH/eulerian_graphs.tex
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 21.
+(babel)             in language  on input line 1.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 21.
+(babel)             in language  on input line 1.
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 27.
+(babel)             in language  on input line 4.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 27.
+(babel)             in language  on input line 4.
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 27.
+(babel)             in language  on input line 4.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 27.
+(babel)             in language  on input line 4.
  [18]
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language  on input line 73.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language  on input line 73.
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language  on input line 73.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language  on input line 73.
+ [19])
+(./mh/discrete_mathematics/graph/EH/hamiltonian_graphs.tex
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language  on input line 2.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language  on input line 2.
 
-LaTeX Warning: Command \CYRS invalid in math mode on input line 48.
-
-Missing character: There is no С in font cmr12!
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 58.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 58.
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 84.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 84.
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 90.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 90.
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 90.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 90.
-[19]
-Overfull \hbox (16.08742pt too wide) in paragraph at lines 103--104
-[]\T2A/cmr/m/n/12 Пусть $\OML/cmm/m/it/12 v[]$ \T2A/cmr/m/n/12 со-сед-няя с $\O
-ML/cmm/m/it/12 v[]$\T2A/cmr/m/n/12 . Рас-смот-рим $\OML/cmm/m/it/12 v[]$\T2A/cm
-r/m/n/12 , их не ме-нее $[]$, рас-по-ло-жен-ных сре-ди $\OML/cmm/m/it/12 v[]; [
-] ; v[]$\T2A/cmr/m/n/12 .
+Overfull \hbox (2.6932pt too wide) in paragraph at lines 52--54
+\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 v[]\OT1/cmr/m/n/12 ; \OML/cmm/m/it/12 e[]\OT1
+/cmr/m/n/12 ; [] ; \OML/cmm/m/it/12 v[]\OT1/cmr/m/n/12 ; \OML/cmm/m/it/12 e\OT1
+/cmr/m/n/12 ; \OML/cmm/m/it/12 v[]\OT1/cmr/m/n/12 ; \OML/cmm/m/it/12 e[]\OT1/cm
+r/m/n/12 ; \OML/cmm/m/it/12 v[]\OT1/cmr/m/n/12 ; [] ; \OML/cmm/m/it/12 e[]\OT1/
+cmr/m/n/12 ; \OML/cmm/m/it/12 v[]\OT1/cmr/m/n/12 ; \OML/cmm/m/it/12 e[]\OT1/cmr
+/m/n/12 ; \OML/cmm/m/it/12 v[]\OT1/cmr/m/n/12 )$ \T2A/cmr/m/n/12 --- га-миль-то
+-нов цикл (до-ка-за-тель-ство
  []
 
-
-Overfull \hbox (28.53964pt too wide) in paragraph at lines 119--121
-[]\T2A/cmr/m/n/12 Докажем, что граф га-миль-то-нов. Вы-бе-рем цепь наи-боль-шей
- дли-ны $\OML/cmm/m/it/12 W \OT1/cmr/m/n/12 = \OML/cmm/m/it/12 v[]e[]v[]e[] [] 
-e[]v[]$\T2A/cmr/m/n/12 .
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 128--132
-
- []
-
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 140.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 140.
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 140.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 140.
-[20]
-Underfull \hbox (badness 10000) in paragraph at lines 143--145
-
- []
-
-) (./mh/discrete_mathematics/graph/trees.tex
+)) (./mh/discrete_mathematics/graph/trees.tex
 Package babel Info: Redefining russian shorthand "|
 (babel)             in language  on input line 1.
 Package babel Info: Redefining russian shorthand "~
 (babel)             in language  on input line 1.
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 2.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 2.
-Package babel Info: Redefining russian shorthand "|
 (babel)             in language  on input line 5.
 Package babel Info: Redefining russian shorthand "~
 (babel)             in language  on input line 5.
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 29.
+(babel)             in language  on input line 5.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 29.
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 29.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 29.
- [21]
+(babel)             in language  on input line 5.
+ [20]
 LaTeX Font Info:    Font shape `OMS/cmr/m/sl' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 44.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 37.
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 67.
+(babel)             in language  on input line 56.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 67.
+(babel)             in language  on input line 56.
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 67.
+(babel)             in language  on input line 56.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 67.
- [22]
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 74.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 74.
-
+(babel)             in language  on input line 56.
+ [21]
 (./mh/discrete_mathematics/graph/trees/spanning_tree.tex
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language  on input line 1.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language  on input line 1.
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language  on input line 1.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language  on input line 1.
+ [22]
 Overfull \hbox (5.03003pt too wide) in paragraph at lines 1--1
 []\T2A/cmr/bx/n/14.4 Остовные де-ре-вья и ме-то-ды на-хож-де-ния ми-ни-маль-ных
  остов-
@@ -1956,61 +1929,76 @@ Package babel Info: Redefining russian shorthand "|
 Package babel Info: Redefining russian shorthand "~
 (babel)             in language  on input line 1.
 
-Underfull \hbox (badness 10000) in paragraph at lines 8--10
+Underfull \hbox (badness 10000) in paragraph at lines 23--25
 
  []
 
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 12.
+(babel)             in language  on input line 27.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 12.
+(babel)             in language  on input line 27.
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 12.
+(babel)             in language  on input line 27.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 12.
-[23])) (./mh/discrete_mathematics/graph/planar_graph.tex
+(babel)             in language  on input line 27.
+[23]) (./mh/discrete_mathematics/graph/trees/p_code.tex
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language  on input line 1.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language  on input line 1.
+))
+(./mh/discrete_mathematics/graph/planar_graph.tex
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language  on input line 1.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language  on input line 1.
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language  on input line 1.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language  on input line 1.
+ [24]
 Package babel Info: Redefining russian shorthand "|
 (babel)             in language  on input line 1.
 Package babel Info: Redefining russian shorthand "~
 (babel)             in language  on input line 1.
 
-Underfull \hbox (badness 10000) in paragraph at lines 2--5
 
- []
+LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 14--18
-
- []
-
-) (./mh/discrete_mathematics/graph/p_code.tex
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 1.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 1.
-
-Underfull \hbox (badness 10000) in paragraph at lines 2--4
-
+Overfull \hbox (14.05064pt too wide) in paragraph at lines 46--51
+\T2A/cmr/m/n/12 смот-рим плос-ко-сти, про-хо-дя-щие че-рез $\OML/cmm/m/it/12 Ox
+$ \T2A/cmr/m/n/12 и об-ра-зу-ю-щие с плос-ко-стью $\OML/cmm/m/it/12 Oxy$ \T2A/c
+mr/m/n/12 уг-лы $[]\OML/cmm/m/it/12 ; []; [] ; []$\T2A/cmr/m/n/12 ,
  []
 
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 6.
+(babel)             in language  on input line 81.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 6.
+(babel)             in language  on input line 81.
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 6.
+(babel)             in language  on input line 81.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 6.
-[24])))
+(babel)             in language  on input line 81.
+[25]
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 43.
+(babel)             in language  on input line 109.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 43.
+(babel)             in language  on input line 109.
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 43.
+(babel)             in language  on input line 109.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 43.
- [25]
+(babel)             in language  on input line 109.
+ [26])))
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language  on input line 44.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language  on input line 44.
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language  on input line 44.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language  on input line 44.
+ [27]
 \openout2 = `./mh/set_theory.aux'.
 
  (./mh/set_theory.tex
@@ -2026,7 +2014,7 @@ Package babel Info: Redefining russian shorthand "|
 (babel)             in language  on input line 1.
 Package babel Info: Redefining russian shorthand "~
 (babel)             in language  on input line 1.
- [26
+ [28
 
 
 
@@ -2056,7 +2044,7 @@ Package babel Info: Redefining russian shorthand "|
 (babel)             in language  on input line 20.
 Package babel Info: Redefining russian shorthand "~
 (babel)             in language  on input line 20.
-[27
+[29
 
 ]
 {\cyrillictext \CYRG \cyrl \cyra \cyrv \cyra } 8.
@@ -2079,14 +2067,14 @@ Package babel Info: Redefining russian shorthand "~
 (babel)             in language  on input line 25.
 )
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 45.
+(babel)             in language  on input line 46.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 45.
+(babel)             in language  on input line 46.
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 45.
+(babel)             in language  on input line 46.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 45.
- [28
+(babel)             in language  on input line 46.
+ [30
 
 ]
 \openout2 = `./mh/combinatorics.aux'.
@@ -2104,73 +2092,63 @@ Package babel Info: Redefining russian shorthand "|
 (babel)             in language  on input line 1.
 Package babel Info: Redefining russian shorthand "~
 (babel)             in language  on input line 1.
- [29
+ [31
 
 
 
 ])
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 49.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 49.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 50.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 50.
  (./mathematics handbook.aux
 (./mh/introduction.aux) (./mh/algebra.aux) (./mh/math_analysis.aux)
 (./mh/geometric.aux) (./mh/discrete_mathematics.aux) (./mh/set_theory.aux)
 (./mh/combinatorics.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 49.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 49.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 50.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 50.
+Package rerunfilecheck Info: File `"mathematics handbook".out' has not changed.
+
+(rerunfilecheck)             Checksum: 93EDFA5719A4C5AD190C7F1D0C1B19C7;9780.
 
 
-Package rerunfilecheck Warning: File `"mathematics handbook".out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
+LaTeX Warning: There were multiply-defined labels.
 
-Package rerunfilecheck Info: Checksums for `"mathematics handbook".out':
-(rerunfilecheck)             Before: 3D59CA7641C6552DC2F422D69AEC3F43;10115
-(rerunfilecheck)             After:  103AAD49907119C0B930BD861FEAF657;10633.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 49.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 50.
  ) 
 Here is how much of TeX's memory you used:
- 32555 strings out of 492985
- 723224 string characters out of 6136283
- 885636 words of memory out of 5000000
- 35331 multiletter control sequences out of 15000+600000
- 22452 words of font info for 59 fonts, out of 8000000 for 9000
+ 32653 strings out of 492985
+ 725153 string characters out of 6136283
+ 890329 words of memory out of 5000000
+ 35401 multiletter control sequences out of 15000+600000
+ 23329 words of font info for 60 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 62i,8n,96p,1730b,936s stack positions out of 5000i,500n,10000p,200000b,80000s
-pdfTeX warning (dest): name{subsection.6.5.3} has been referenced but does no
-t exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.6.5.2} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.6.5.1} has been referenced but does not 
-exist, replaced by a fixed one
-
-{g:/texlive/2017/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t2a.enc}<g:/texli
-ve/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><g:/texlive/2017/t
-exmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb><g:/texlive/2017/texmf-dist/
-fonts/type1/public/amsfonts/cm/cmex10.pfb><g:/texlive/2017/texmf-dist/fonts/typ
-e1/public/amsfonts/cm/cmmi12.pfb><g:/texlive/2017/texmf-dist/fonts/type1/public
-/amsfonts/cm/cmmi6.pfb><g:/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/
-cm/cmmi8.pfb><g:/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.p
-fb><g:/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb><g:/texl
-ive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><g:/texlive/2017/te
-xmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><g:/texlive/2017/texmf-dist/
-fonts/type1/public/amsfonts/cm/cmsy6.pfb><g:/texlive/2017/texmf-dist/fonts/type
-1/public/amsfonts/cm/cmsy8.pfb><g:/texlive/2017/texmf-dist/fonts/type1/public/a
-msfonts/symbols/msam10.pfb><g:/texlive/2017/texmf-dist/fonts/type1/public/amsfo
-nts/symbols/msbm10.pfb><g:/texlive/2017/texmf-dist/fonts/type1/public/cm-super/
-sfbx1200.pfb><g:/texlive/2017/texmf-dist/fonts/type1/public/cm-super/sfbx1440.p
-fb><g:/texlive/2017/texmf-dist/fonts/type1/public/cm-super/sfbx1728.pfb><g:/tex
-live/2017/texmf-dist/fonts/type1/public/cm-super/sfbx2488.pfb><g:/texlive/2017/
-texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb><g:/texlive/2017/texmf-dist
-/fonts/type1/public/cm-super/sfrm1440.pfb><g:/texlive/2017/texmf-dist/fonts/typ
-e1/public/cm-super/sfrm2074.pfb><g:/texlive/2017/texmf-dist/fonts/type1/public/
-cm-super/sfsl1200.pfb><g:/texlive/2017/texmf-dist/fonts/type1/public/cm-super/s
-fti1200.pfb>
-Output written on "mathematics handbook.pdf" (30 pages, 435320 bytes).
+ 62i,9n,96p,1747b,1087s stack positions out of 5000i,500n,10000p,200000b,80000s
+{g:/texlive/2017/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t2a.enc}<g:/tex
+live/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><g:/texlive/2017
+/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb><g:/texlive/2017/texmf-dis
+t/fonts/type1/public/amsfonts/cm/cmex10.pfb><g:/texlive/2017/texmf-dist/fonts/t
+ype1/public/amsfonts/cm/cmmi12.pfb><g:/texlive/2017/texmf-dist/fonts/type1/publ
+ic/amsfonts/cm/cmmi6.pfb><g:/texlive/2017/texmf-dist/fonts/type1/public/amsfont
+s/cm/cmmi8.pfb><g:/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12
+.pfb><g:/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb><g:/te
+xlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><g:/texlive/2017/
+texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><g:/texlive/2017/texmf-dis
+t/fonts/type1/public/amsfonts/cm/cmsy6.pfb><g:/texlive/2017/texmf-dist/fonts/ty
+pe1/public/amsfonts/cm/cmsy8.pfb><g:/texlive/2017/texmf-dist/fonts/type1/public
+/amsfonts/symbols/msam10.pfb><g:/texlive/2017/texmf-dist/fonts/type1/public/ams
+fonts/symbols/msbm10.pfb><g:/texlive/2017/texmf-dist/fonts/type1/public/cm-supe
+r/sfbl1200.pfb><g:/texlive/2017/texmf-dist/fonts/type1/public/cm-super/sfbx1200
+.pfb><g:/texlive/2017/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb><g:/t
+exlive/2017/texmf-dist/fonts/type1/public/cm-super/sfbx1728.pfb><g:/texlive/201
+7/texmf-dist/fonts/type1/public/cm-super/sfbx2488.pfb><g:/texlive/2017/texmf-di
+st/fonts/type1/public/cm-super/sfrm1200.pfb><g:/texlive/2017/texmf-dist/fonts/t
+ype1/public/cm-super/sfrm1440.pfb><g:/texlive/2017/texmf-dist/fonts/type1/publi
+c/cm-super/sfrm2074.pfb><g:/texlive/2017/texmf-dist/fonts/type1/public/cm-super
+/sfsl1200.pfb><g:/texlive/2017/texmf-dist/fonts/type1/public/cm-super/sfti1200.
+pfb>
+Output written on "mathematics handbook.pdf" (32 pages, 453344 bytes).
 PDF statistics:
- 584 PDF objects out of 1000 (max. 8388607)
- 521 compressed objects within 6 object streams
- 150 named destinations out of 1000 (max. 500000)
- 410 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 613 PDF objects out of 1000 (max. 8388607)
+ 547 compressed objects within 6 object streams
+ 170 named destinations out of 1000 (max. 500000)
+ 386 words of extra memory for PDF output out of 10000 (max. 10000000)
 
