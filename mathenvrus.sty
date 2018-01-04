@@ -1,26 +1,35 @@
 % Стилевой файл
 % - новые команды:
-%	  - \opbr{математический знак} (operator break) — разрешает перенос строки на данном знаке,
-%		автоматически дублируя его на следующей;
-%	  - \indbase (induction base) — оформление базы математической индукции;
-%	  - \indstep (induction step) — оформление шага математической индукции;
-%	  - \indend (induction end) — конец метода математической индукции.
+%	- \opbr{математический знак} (operator break) — разрешает перенос строки на данном знаке,
+%	  автоматически дублируя его на следующей;
+%	- \mult и \notmult — знак кратности;
+%	- \Arg — печатает Arg в математической моде;
+%	- \indbase (induction base) — оформление базы математической индукции;
+%	- \indstep (induction step) — оформление шага математической индукции;
+%	- \indend (induction end) — конец метода математической индукции.
 % - переопределённые команды:
-%	  - \* — работает аналогично \opbr\cdot, но при отсутствии переноса строки ничего не делает
+%	- \* — работает аналогично \opbr\cdot, но при отсутствии переноса строки ничего не делает
 % - новые окружения:
-%	  - definition для определений;
-%	  - statement для утверждений;
-%	  - lemma для лемм;
-%	  - theorem для теорем;
-%	  - consequent для следствий;
-%	  - proof для доказательств;
-%	  - proofmathind для доказательств методом математической индукции;
-%	  - proofcontra для доказательств методом от противного.
+%	- statement для утверждений;
+%	- lemma для лемм;
+%	- theorem для теорем;
+%	- consequent для следствий;
+%	- proof для доказательств с необязательным аргументом — пояснением;
+%	- proofmathind для доказательств методом математической индукции;
+%	- proofcontra для доказательств методом от противного.
 
 \usepackage{amsmath,amsfonts,amssymb}
 
 \newcommand\opbr[1]
 	{\ensuremath{#1}\nobreak\discretionary{}{\hbox{\ensuremath{#1}}}{}}
+
+\newcommand\mult{\;\vdots\;}
+\newcommand\notmult{\lefteqn{\mkern 1mu\not}\;\vdots\;}
+
+\newcommand\NODD{\;\CYRN\CYRO\CYRD\;}
+
+
+\DeclareMathOperator\Arg{Arg}
 	
 \newcommand\indbase
 	{\begin{itemize}
@@ -29,7 +38,7 @@
 	{\item {\it Шаг индукции.\ }}
 \newcommand\indend
 	{\end{itemize}}
-	
+
 \renewcommand{\*}
 	{\discretionary{\hbox{$\cdot$}}{\hbox{$\cdot$}}{}}
 
@@ -39,13 +48,12 @@
 	{\par{\bf #1\ #2\ (#3).\ }\samepage\begingroup\sl}
 \renewcommand{\@endtheorem}{\endgroup}
 
-\newtheorem{definition}{Определение}[section]
 \newtheorem{statement}{Утверждение}[section]
 \newtheorem{lemma}{Лемма}[section]
 \newtheorem{theorem}{Теорема}[section]
 \newtheorem{consequent}{Следствие}[section]
-\newenvironment{proof}
-	{\par{\bf Доказательство.}}
+\newenvironment{proof}[1][\unskip]
+	{\par{\bf Доказательство #1. }}
 	{$\scriptstyle\blacksquare$}
 \newenvironment{proofmathind}
 	{\par{\bf Доказательство (методом математической индукции).}}
@@ -53,6 +61,3 @@
 \newenvironment{proofcontra}
 	{\par{\bf Доказательство (методом от противного).}}
 	{$\scriptstyle\blacksquare$}
-%\newenvironment{proof}[1]
-%	{\par\noindent{\bf Доказательство (#1).}}
-%	{$\scriptstyle\blacksquare$}

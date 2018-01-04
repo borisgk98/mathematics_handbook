@@ -3,6 +3,8 @@
 \usepackage[russian]{babel}
 \usepackage{graphicx}
 
+\usepackage{index} % для предметного указателя
+
 \usepackage[left=2cm,top=2cm,right=2cm,bottom=2cm]{geometry}
 
 \usepackage{amsmath} %для работы больших скобок в формулах и др. фич
@@ -20,10 +22,11 @@
 
 \usepackage{graphicx} % для figure
 
+\makeindex % для предметного указателя
 
 \begin{document}
 
-\author{Борис Кожуховский}
+\author{Борис Кожуховский, Максим Гунбин}
 \title{Справочник по математике}
 \date{2017}
 
@@ -47,4 +50,19 @@
 
 \include{./mh/combinatorics}
 
+\printindex % предметный указатель
+
 \end{document}\right) 
+
+%%%%%%%%%%%%%%%%%
+% TODO
+% 1) переписать док-во Т Оре и Т Дирака
+% 2) сделать индексацию \index
+% 3) Добавить иллюстрации
+%
+%
+%
+%
+%
+%
+%%%%%%%%%%%%%%%%%
