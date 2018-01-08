@@ -1,13 +1,18 @@
 \section{Основные понятия}
-\textbf{Граф} — абстрактный математический объект, представляющий собой множество вершин графа и набор рёбер, то есть соединений между парами вершин. Например, за множество вершин можно взять множество аэропортов, обслуживаемых некоторой авиакомпанией, а за множество рёбер взять регулярные рейсы этой авиакомпании между городами. Пример графа:
+\textbf{Граф} — абстрактный математический объект, представляющий собой множество вершин графа и набор рёбер, то есть соединений между парами вершин. Например, за множество вершин можно взять множество аэропортов, обслуживаемых некоторой авиакомпанией, а за множество рёбер взять регулярные рейсы этой авиакомпании между городами.
 
-\begin{tikzpicture}
-\GraphInit[vstyle=Welsh]
-\SetGraphUnit{2}
-\Vertices{circle}{A,B,C,D}
-\Edges(A,B,C,D,A,C)
-\SetVertexNoLabel
-\end{tikzpicture}
+\begin{figure}
+	\begin{center}
+		\begin{tikzpicture}
+		\GraphInit[vstyle=Welsh]
+		\SetGraphUnit{2}
+		\Vertices{circle}{A,B,C,D}
+		\Edges(A,B,C,D,A,C)
+		\SetVertexNoLabel
+		\end{tikzpicture}
+	\end{center}
+	\caption{Пример графа из 4 вершин}
+\end{figure}
 
 Формальное определение:
 
@@ -28,11 +33,6 @@
 Ребро вида $e = \{ u, u \}$ называется \textbf{петлёй}.
 
 Граф, в~котором любые две вершины соединены ребром, называется \textbf{полным} и~обозначается $K_n$, где $n$~--- число вершин в~нём.
-
-Графы $G_1 = (V_1, E_1)$ и~$G_2 = (V_2, E_2)$ называются \textbf{изоморфными}, если существует биекция $\varphi \colon V_1 \to V_2$ такая, что
-$\forall u, v \in V_1 \ \allowbreak ((u, v) \in E_1 \opbr\Leftrightarrow (\varphi(u), \varphi(v)) \in E_2)$, иначе~--- \textbf{неизоморфными}. Иными словами два графа называются \textbf{изоморфными}, если они одинаковые с точностью до переименования вершин.
-
-$\varphi$ называется \textbf{изоморфизмом}.
 
 Число рёбер в~графе~$G$, инцидентных вершине~$u$, называется \textbf{степенью} вершины и~обозначается $\deg_G u$.
 
@@ -62,7 +62,6 @@ $\varphi$ называется \textbf{изоморфизмом}.
 
 Маршрут, соединяющий вершины $u$ и~$v$, называется \textbf{$(u, v)$\nobreakdash-\hspace{0pt}маршрутом}.
 
-
 \begin{lemma}
 	$(u, v)$\nobreakdash-\hspace{0pt}маршрут содержит $(u, v)$\nobreakdash-\hspace{0pt}простую цепь.
 \end{lemma}
@@ -84,6 +83,46 @@ $\varphi$ называется \textbf{изоморфизмом}.
 	Пусть $u = v_1 e_1 v_2 \ldots e_n v_{n+1} = v$, $u = v_1' e_1' v_2' \ldots e_m' v_{m+1}' = v$~--- простые цепи.
 	Найдём наименьшее~$i \colon e_i \neq e_i'$, тогда $v_i e_i v_{i+1} \ldots e_n v_{n+1} = v_{m+1}' e_m' \ldots e_i' v_i' = v_i$~--- цикл, значит, можно получить простой цикл.
 \end{proof}
+
+Графы $G_1 = (V_1, E_1)$ и~$G_2 = (V_2, E_2)$ называются \textbf{изоморфными}, если существует биекция $\varphi \colon V_1 \to V_2$ такая, что
+$\forall u, v \in V_1 \ \allowbreak ((u, v) \in E_1 \opbr\Leftrightarrow (\varphi(u), \varphi(v)) \in E_2)$, иначе~--- \textbf{неизоморфными}. Иными словами два графа называются \textbf{изоморфными}, если они одинаковые с точностью до переименования вершин.
+
+$\varphi$ называется \textbf{изоморфизмом}.
+
+На рисунке \ref{isograph} показаны два изоморфных графа $G$ и $G'$. Их изоморфизм $\varphi$ задаётся так:
+
+\begin{itemize}
+	\item $A \quad \Leftrightarrow \quad 3$
+	\item $B \quad \Leftrightarrow \quad 5$
+	\item $C \quad \Leftrightarrow \quad 1$
+	\item $D \quad \Leftrightarrow \quad 2$
+	\item $E \quad \Leftrightarrow \quad 6$
+	\item $F \quad \Leftrightarrow \quad 4$
+\end{itemize}
+
+\begin{figure}[h!]
+\begin{center}
+	\begin{tikzpicture}
+	\GraphInit[vstyle=Welsh]
+	\SetGraphUnit{2}
+	\Vertices{circle}{A,B,C,D,E,F}
+	\Edges(A,B,C,D,E,F,B)
+	\Edges(A,D)
+	\Edges(A,E)
+	\Edges(A,C)
+	\SetVertexNoLabel
+	\end{tikzpicture}
+	\begin{tikzpicture}
+	\GraphInit[vstyle=Welsh]
+	\SetGraphUnit{2}
+	\Vertices{circle}{1,2,3,4,5,6}
+	\Edges(1,2,3,5,4,6,1,5,3,6,2)
+	\SetVertexNoLabel
+	\end{tikzpicture}
+\end{center}
+\caption{Граф $G$ и изоморфный ему граф $G'$}
+\label{isograph}
+\end{figure}
 
 
 

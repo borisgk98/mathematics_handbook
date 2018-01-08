@@ -11,6 +11,20 @@
 \textbf{Компонентой связности} графа называется его максимальный (относительно включения)
 связный подграф.
 
+\begin{figure}[h!]
+	\begin{center}
+		\begin{tikzpicture}
+		\GraphInit[vstyle=Welsh]
+		\SetGraphUnit{2}
+		\Vertices{circle}{A,B,C,D,E,F,G}
+		\Edges(A,B,C,D,A,C,D,B)
+		\Edges(E,F,G,E)
+		\SetVertexNoLabel
+		\end{tikzpicture}
+	\end{center}
+	\caption{Граф с двумя компонентами связанности}
+\end{figure}
+
 \input{./mh/discrete_mathematics/graph/EH/eulerian_graphs} 
 
 \input{./mh/discrete_mathematics/graph/EH/hamiltonian_graphs}

@@ -3,6 +3,38 @@
 
 Граф, содержащий эйлеров цикл, называется \textbf{эйлеровым}.
 
+
+
+\begin{figure}[h!]
+	\begin{center}
+		\begin{tikzpicture}
+		\GraphInit[vstyle=Welsh]
+		\SetGraphUnit{1.5}
+		\Vertices{circle}{A,B,C,D,E,F}
+		\Edges(A,B,C,D,E,F,A,C,E,A)
+		\SetVertexNoLabel
+		\end{tikzpicture}
+		\begin{tikzpicture}
+		\GraphInit[vstyle=Welsh]
+		\SetGraphUnit{1.5}
+		\Vertices{circle}{A,B,C,D,E,F}
+		\Edges(A,B,C,D,E,F,A,C,E,A)
+		\Edges(B,D)
+		\SetVertexNoLabel
+		\end{tikzpicture}
+		\begin{tikzpicture}
+		\GraphInit[vstyle=Welsh]
+		\SetGraphUnit{1.5}
+		\Vertices{circle}{A,B,C,D,E,F}
+		\Edges(A,B,C,D,E,F,A,C,E,A)
+		\Edges(B,D)
+		\Edges(C,F)
+		\SetVertexNoLabel
+		\end{tikzpicture}
+	\end{center}
+	\caption{Эйлеров граф, полуэйлеров граф и граф не являющийся ни эйлеровым ни полуэйлеровым}
+\end{figure}
+
 \begin{theorem}
 Связный граф эйлеров $\Leftrightarrow$ степени всех вершин чётны.
 \end{theorem}
