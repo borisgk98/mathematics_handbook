@@ -1,0 +1,120 @@
+\section{Алгебра матриц}
+\index{матрица}\textbf{Матрицей} над полем $K$ называется прямоугольная таблица из элементов $K$, содержащая $m$~строк и~$n$~столбцов, и~обозначается
+\begin{equation*}
+A =
+\begin{pmatrix}
+a_{11} & a_{12} & \cdots & a_{1n} \\
+a_{21} & a_{22} & \cdots & a_{2n} \\
+\vdots & \vdots & \ddots & \vdots \\
+a_{m1} & a_{m2} & \cdots & a_{mn}
+\end{pmatrix} =
+\begin{Vmatrix}
+a_{11} & a_{12} & \cdots & a_{1n} \\
+a_{21} & a_{22} & \cdots & a_{2n} \\
+\vdots & \vdots & \ddots & \vdots \\
+a_{m1} & a_{m2} & \cdots & a_{mn}
+\end{Vmatrix}
+\end{equation*}
+
+Числа $m$ и~$n$ называются \textbf{порядками} матрицы.
+
+$i$\nobreakdash-я строка матрицы обозначается~$A_i$, $j$\nobreakdash-й столбец~---~$A^j$.
+
+Две матрицы называются \textbf{равными}, если их порядки и~соответствующие элементы совпадают, иначе~--- \textbf{неравными}.
+
+\textbf{Сложение матриц} определено только над~матрицами одинакового размера.
+$$
+A + B =
+\begin{Vmatrix}
+a_{11} & a_{12} & \cdots & a_{1n} \\ 
+a_{21} & a_{22} & \cdots & a_{2n} \\ 
+\vdots & \vdots & \ddots & \vdots \\ 
+a_{m1} & a_{m2} & \cdots & a_{mn}
+\end{Vmatrix} +
+\begin{Vmatrix}
+b_{11} & b_{12} & \cdots & b_{1n} \\ 
+b_{21} & b_{22} & \cdots & b_{2n} \\ 
+\vdots & \vdots & \ddots & \vdots \\ 
+b_{m1} & b_{m2} & \cdots & b_{mn}
+\end{Vmatrix} =
+\begin{Vmatrix}
+a_{11} + b_{11} & a_{12} + b_{12} & \cdots & a_{1n} + b_{1n} \\ 
+a_{21} + b_{21} & a_{22} + b_{22} & \cdots & a_{2n} + b_{2n} \\ 
+\vdots & \vdots & \ddots & \vdots \\ 
+a_{m1} + b_{m1} & a_{m2} + b_{m2} & \cdots & a_{mn} + b_{mn}
+\end{Vmatrix}
+$$
+
+	
+\textbf{Умножение матрицы на~число}
+\begin{equation*}
+\lambda A =
+\lambda \cdot
+\begin{Vmatrix}
+a_{11} & a_{12} & \cdots & a_{1n} \\ 
+a_{21} & a_{22} & \cdots & a_{2n} \\ 
+\vdots & \vdots & \ddots & \vdots \\ 
+a_{m1} & a_{m2} & \cdots & a_{mn}
+\end{Vmatrix} =
+\begin{Vmatrix}
+\lambda a_{11} & \lambda a_{12} & \cdots & \lambda a_{1n} \\ 
+\lambda a_{21} & \lambda a_{22} & \cdots & \lambda a_{2n} \\ 
+\vdots & \vdots & \ddots & \vdots \\ 
+\lambda a_{m1} & \lambda a_{m2} & \cdots & \lambda a_{mn}
+\end{Vmatrix}
+\end{equation*}
+
+Относительно этих двух операций \textbf{все матрицы размера $m \times n$ образуют векторное пространство}, которое можно обозначить как $K^{m \times n}$.
+
+
+
+\textbf{Умножение матриц} $A \cdot B$ определено, только если количество столбцов в~матрице $A$ совпадает с~количеством строк в~матрице $B$. То есть их размеры согласованы.
+\begin{equation*}
+\begin{Vmatrix}
+a_{11} & a_{12} & \cdots & a_{1k} \\ 
+a_{21} & a_{22} & \cdots & a_{2k} \\ 
+\vdots & \vdots & \ddots & \vdots \\ 
+a_{m1} & a_{m2} & \cdots & a_{mk}
+\end{Vmatrix} \cdot
+\begin{Vmatrix}
+b_{11} & b_{12} & \cdots & b_{1n} \\ 
+b_{21} & b_{22} & \cdots & b_{2n} \\ 
+\vdots & \vdots & \ddots & \vdots \\ 
+b_{k1} & b_{k2} & \cdots & b_{kn}
+\end{Vmatrix} =
+\begin{Vmatrix}
+\sum\limits_{i=1}^k a_{1i}b_{i1} & \sum\limits_{i=1}^k a_{1i}b_{i2} & \cdots & \sum\limits_{i=1}^k a_{1i}b_{in} \\
+\sum\limits_{i=1}^k a_{2i}b_{i1} & \sum\limits_{i=1}^k a_{2i}b_{i2} & \cdots & \sum\limits_{i=1}^k a_{2i}b_{in} \\
+\vdots & \vdots & \ddots & \vdots \\
+\sum\limits_{i=1}^k a_{mi}b_{i1} & \sum\limits_{i=1}^k a_{mi}b_{i2} & \cdots & \sum\limits_{i=1}^k a_{mi}b_{in}
+\end{Vmatrix}
+\end{equation*}
+
+Пример:
+$$
+\begin{Vmatrix}
+	1 & 0 & 2 \\ 
+	0 & -1 & 3 \\ 
+\end{Vmatrix} 
+\begin{Vmatrix}
+2 & -1 \\ 
+0 & 5 \\ 
+1 & 1 \\ 
+\end{Vmatrix} = 
+\begin{Vmatrix}
+1*2 + 0 * 0 + 2 * 1 & 1 * (-1) + 0 * 5 + 2 * 1 \\ 
+0 * 2 + (-1) * 0 + 3 * 1 & 0 * (-1) + (-1) * 5 + 3 * 1 \\ 
+\end{Vmatrix}  =
+\begin{Vmatrix}
+4 & 1 \\ 
+3 & -2 \\ 
+\end{Vmatrix}
+$$
+
+Умножение матриц \textbf{ассоциативно}, то есть $A(BC) = (AB)C$, но не \textbf{коммутативно}.
+
+Если порядки матрицы (количество строк и столбцов) $m = n$, то матрица называется \index{квадратная матрица}\textbf{квадратной}, а число~$m = n$~--- её \textbf{порядком}.
+
+\textbf{Главной} называется диагональ квадратной матрицы, состоящая из~элементов $a_{11}, a_{22}, \ldots, a_{nn}$, а \textbf{побочной}~--- состоящая из~элементов $a_{n1}, a_{n-1\, 2}, \ldots, a_{1n}$.
+
+Квадратная матрица называется диагональной
