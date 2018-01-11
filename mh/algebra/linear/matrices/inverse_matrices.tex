@@ -15,7 +15,8 @@ $B = BE = BAC = EC = C$
 
 Т.\,о., матрица~$A^{-1}$ называется \textbf{обратной} к~матрице~$A$, если $A^{-1} A = A A^{-1} = E$.
 
-\begin{theorem}
+\textbf{Нахождение обратной матрицы через транспонированную матрицу алгебраических дополнений.}
+
 Пусть даны матрицы
 \begin{equation*}
 A =
@@ -39,12 +40,38 @@ A_{n1} & A_{n2} & \cdots & A_{nn}
 \begin{equation*}
 A^{-1} = \frac{\tilde A^T}{|A|}
 \end{equation*}
-\end{theorem}
 \begin{proof}
-
+	$$
+	AA^{-1} = 
+	$$
+	$$
+	\begin{Vmatrix}
+	a_{11} & a_{12} & \cdots & a_{1n} \\
+	a_{21} & a_{22} & \cdots & a_{2n} \\
+	\vdots & \vdots & \ddots & \vdots \\
+	a_{n1} & a_{n2} & \cdots & a_{nn}
+	\end{Vmatrix}
+	\begin{Vmatrix}
+	A_{11} & A_{12} & \cdots & A_{1n} \\
+	A_{21} & A_{22} & \cdots & A_{2n} \\
+	\vdots & \vdots & \ddots & \vdots \\
+	A_{n1} & A_{n2} & \cdots & A_{nn}
+	\end{Vmatrix} = 
+	$$
+	$$
+	\begin{Vmatrix}
+	\Delta & 0 & \cdots & 0 \\
+	0 & \Delta & \cdots & 0 \\
+	\vdots & \vdots & \ddots & \vdots \\
+	0 & 0 & \cdots & \Delta
+	\end{Vmatrix} = \Delta E
+	$$
+	где $\Delta$ - определитель матрицы $A$, $E$ - единичная матрица.
 \end{proof}
 
-\begin{theorem}
+
+\textbf{Нахождение обратной матрицы методом Гаусса-Жордана.}
+
 Пусть дана невырожденная матрица
 \begin{equation*}
 A =
@@ -67,7 +94,6 @@ a_{n1} & a_{n2} & \cdots & a_{nn} & 0 & 0 & \cdots & 1
 \end{equation*}
 и~с~помощью элементарных преобразований только над~строками полученной матрицы (или только над столбцами) приведём её левую часть к~единичной матрице.
 Тогда правая часть будет обратной к~$A$ матрицей.
-\end{theorem}
 \begin{proof}
-
+	
 \end{proof}
